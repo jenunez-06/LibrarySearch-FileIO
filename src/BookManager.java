@@ -205,11 +205,11 @@ public class BookManager implements IBook {
 		BookManager manager = new BookManager();
 		manager.loadData();
 
-		//List of publishers available: Data Publ		Carole Inst
-		manager.searchByPublisher("Data Publ");
+		//List of book titles available: Clean Code		Java For Starters		Data Science	Advanced Java	Data Science II
+		manager.searchByTitle("Clean Code");
 
-		//List of book titles available: Java For Starters		Data Science	Advanced Java	Data Science II
-		manager.searchByTitle("Advanced Java");
+		//List of publishers available: Data Publ		Carole Inst		Pearson
+		manager.searchByPublisher("Carole Inst");
 
 		//List of authors available: Mark	Judy	David	Marry	Caleb	Dawit
 		manager.searchByAuthor("Judy");
